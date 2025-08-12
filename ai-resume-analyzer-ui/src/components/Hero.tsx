@@ -16,7 +16,7 @@ export default function Hero() {
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
           AI Resume Analyzer
         </h1>
-        <p className="mt-4 text-lg/7 md:text-xl/8 text-indigo-100">
+        <p className="mt-4 text-lg leading-7 md:text-xl md:leading-8 text-indigo-100">
           Optimize your resume against any job description. Get instant feedback, keyword match scores, and actionable suggestions.
         </p>
       </motion.div>

@@ -62,9 +62,9 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900">
       <Hero />
-      <main className="mx-auto -mt-16 max-w-6xl space-y-10 pb-20">
+      <main className="mx-auto max-w-6xl space-y-10 pb-20">
         <UploadForm onAnalyze={handleAnalyze} loading={loading} />
         {error && (
           <div className="mx-auto max-w-5xl px-6">
