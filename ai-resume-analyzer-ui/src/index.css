@@ -22,26 +22,3 @@
     min-height: 100vh;
   }
 }
-
-/* Fallback styles if Tailwind fails to load */
-@layer base {
-  .min-h-screen {
-    min-height: 100vh;
-  }
-  
-  .bg-gradient-to-br {
-    background: linear-gradient(to bottom right, #4f46e5, #7c3aed);
-  }
-  
-  .text-white {
-    color: white;
-  }
-  
-  .p-4 {
-    padding: 1rem;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-}
