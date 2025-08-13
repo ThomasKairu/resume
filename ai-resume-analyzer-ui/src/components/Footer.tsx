@@ -7,7 +7,7 @@ export default function Footer() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      className="mx-auto mt-16 max-w-6xl px-6 pb-12 pt-8 text-sm text-slate-500 dark:text-slate-400"
+      className="mx-auto mt-16 max-w-6xl px-6 pb-12 pt-8 text-sm text-text/80 dark:text-slate-400"
     >
       <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
         <nav className="flex gap-6">

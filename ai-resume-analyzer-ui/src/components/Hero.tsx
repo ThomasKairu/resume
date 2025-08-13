@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-indigo-600 via-purple-600 to-fuchsia-600">
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary via-accent to-fuchsia-600">
         <div className="absolute inset-0 opacity-25 bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.25),transparent_50%)]" />
       </div>
 
