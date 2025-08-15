@@ -31,7 +31,7 @@ export default function UploadForm({ onAnalyze, loading }: { onAnalyze: (payload
               value={resumeText}
               onChange={(e) => setResumeText(e.target.value)}
               placeholder="Paste your resume text here..."
-              className="w-full h-64 p-4 border rounded-lg resize-none focus:ring-2 focus:ring-purple-500"
+              className="w-full h-64 p-4 border rounded-lg resize-none bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:ring-2 focus:ring-purple-500"
               rows={10}
               required
             />
@@ -42,7 +42,7 @@ export default function UploadForm({ onAnalyze, loading }: { onAnalyze: (payload
               value={jobDescription}
               onChange={(e) => setJobDescription(e.target.value)}
               placeholder="Paste the job description here..."
-              className="w-full h-64 p-4 border rounded-lg resize-none focus:ring-2 focus:ring-purple-500"
+              className="w-full h-64 p-4 border rounded-lg resize-none bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:ring-2 focus:ring-purple-500"
               rows={10}
               required
             />
