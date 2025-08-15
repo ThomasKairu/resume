@@ -27,9 +27,10 @@ export default function Results({ data }: { data: ResultData | null }) {
       if (containerRef.current) {
         try {
           const canvas = await html2canvas(containerRef.current, {
-            scale: 1,
+            scale: 2,
             backgroundColor: '#ffffff',
-            logging: true
+            useCORS: true,
+            allowTaint: true
           })
           
           console.log('Canvas created successfully')
