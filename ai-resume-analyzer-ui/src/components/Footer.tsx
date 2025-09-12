@@ -16,8 +16,7 @@ export default function Footer() {
           <a className="hover:text-slate-700 dark:hover:text-slate-200 transition-colors" href="#contact">Contact</a>
         </nav>
         <div className="flex flex-col items-center gap-1 text-center">
-          <p>© {new Date().getFullYear()} AI Resume Analyzer</p>
-          <p className="text-xs">Advanced AI Technology • Privacy-First Design</p>
+          <p>© {new Date().getFullYear()} <a href="/" className="hover:text-slate-700 dark:hover:text-slate-200 transition-colors font-medium">AI Resume Analyzer</a> | Powered by <a href="https://synapseflow.solutions" target="_blank" rel="noopener noreferrer" className="hover:text-slate-700 dark:hover:text-slate-200 transition-colors font-medium">Synapseflow solutions</a></p>
         </div>
       </div>
     </motion.footer>
