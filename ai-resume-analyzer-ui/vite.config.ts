@@ -18,7 +18,10 @@ export default defineConfig({
         entryFileNames: 'assets/[name]-[hash].js',
       },
     },
+    // Copy sitemap and robots.txt to root of dist
+    copyPublicDir: true,
   },
+  publicDir: 'public',
   css: {
     postcss: './postcss.config.js',
   },
